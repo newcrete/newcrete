@@ -850,3 +850,55 @@ img {
 .info-box p:last-child {
     margin-bottom: 0;
 }
+
+/* ========================================
+   핵심 특징 미니 그리드 (상품 페이지 오른쪽)
+   ======================================== */
+.quick-features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-sm);
+    margin-top: var(--spacing-md);
+    padding: var(--spacing-md);
+    background: var(--bg-secondary);
+    border-radius: var(--border-radius);
+}
+
+.quick-feature-item {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+    padding: var(--spacing-xs);
+}
+
+.quick-icon {
+    font-size: 1.2rem;
+}
+
+.quick-text {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+/* ========================================
+   빠른 안내 박스
+   ======================================== */
+.quick-notice {
+    margin-top: var(--spacing-md);
+    padding: var(--spacing-md);
+    background: linear-gradient(135deg, var(--accent-orange-light) 0%, #fff8f5 100%);
+    border-radius: var(--border-radius);
+    border: 1px dashed var(--accent-orange);
+}
+
+.quick-notice p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.8;
+}
+
+.quick-notice strong {
+    color: var(--accent-orange);
+}

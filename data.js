@@ -9,7 +9,7 @@ const products = [
         name: "뉴크리트 FR",
         subtitle: "학교급식실 전용 논슬립 바닥재",
         description: `3액형 수용성 우레탄 레진몰탈과 칼라규사가 최적상태로 혼합되고 내화학성 및 내구성이 강한 논슬립 바닥재`,
-        image: "images/newcrete-fr.png",
+        image: "images/newcrete-fr.jpg",
         tags: ["HACCP인증", "논슬립", "학교급식실"],
         featured: true
     },
