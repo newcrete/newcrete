@@ -904,3 +904,56 @@ img {
 .quick-notice strong {
     color: var(--accent-orange);
 }
+
+/* ========================================
+   시공방법 섹션
+   ======================================== */
+.construction-steps {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+    margin: var(--spacing-md) 0;
+}
+
+.step-item {
+    display: flex;
+    gap: var(--spacing-md);
+    background: var(--bg-secondary);
+    border-radius: var(--border-radius);
+    padding: var(--spacing-md);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.step-item:hover {
+    transform: translateX(4px);
+    box-shadow: var(--shadow-md);
+    border-left: 3px solid var(--accent-orange);
+}
+
+.step-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    background: var(--gradient-orange);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 50%;
+}
+
+.step-content h4 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-xs);
+}
+
+.step-content p {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin: 0;
+}
