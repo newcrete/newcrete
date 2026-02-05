@@ -9,7 +9,7 @@ const products = [
         name: "폴리우레탄 레진몰탈 : 뉴크리트",
         subtitle: "식품공장 바닥보수용(초속경,고강도), 물류창고, 저온창고",
         description: `- 트렌치주위, 판넬이설부위, 파이거나 크랙부위 등\n- 다양한 칼라 레진 몰탈\n- 식품공장, 조리실 전용바닥재 (HACCP 승인)`,
-        image: "images/뉴크리트1.png",
+        image: "images/newcrete-1.png",
         tags: ["다양한 색상", "바닥보수", "HACCP 승인", "초속경", "고강도", "본사 생산", "식품공장", "물류창고"],
         featured: true
     },
