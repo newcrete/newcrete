@@ -715,7 +715,7 @@ img {
     content: "✔️";
     position: absolute;
     left: 0;
-    font-size: 0.9rem;
+    font-size: 0.75rem;
 }
 
 /* 하단 색상 옵션 스타일 보강 */
