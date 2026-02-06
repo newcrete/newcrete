@@ -1056,7 +1056,7 @@ img {
         max-width: 100% !important;
     }
 
-    /* 텍스트 줄바꿈 강제 (잘림 해결) */
+    /* 텍스트 줄바꿈 최적화 (세로 나열 방지) */
     .product-page-title,
     .product-summary li,
     .description-content,
@@ -1064,14 +1064,17 @@ img {
     span,
     div {
         word-break: keep-all;
-        /* 기본적으로 keep-all 유지하되 */
+        /* 단어 단위 유지 */
         word-wrap: break-word;
-        overflow-wrap: break-word;
+        /* 긴 단어는 줄바꿈 */
+        overflow-wrap: anywhere;
+        /* 강제 줄바꿈 허용하여 오버플로우 방지 */
     }
 
-    /* 화면 폭보다 긴 단어는 강제로 자름 */
+    /* 제목은 좀 더 유연하게 */
     .product-page-title {
-        word-break: break-all;
+        word-break: keep-all;
+        line-height: 1.4;
     }
 
     /* 모바일 전용 슬라이더 보이기 */
