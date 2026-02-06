@@ -1058,22 +1058,21 @@ img {
 
     /* 텍스트 줄바꿈 최적화 (세로 나열 방지) */
     .product-page-title,
+    .brand-label,
     .product-summary li,
     .description-content,
-    p,
-    span,
-    div {
+    .price-value,
+    .product-info-sidebar p {
         word-break: keep-all;
         /* 단어 단위 유지 */
         word-wrap: break-word;
         /* 긴 단어는 줄바꿈 */
         overflow-wrap: anywhere;
-        /* 강제 줄바꿈 허용하여 오버플로우 방지 */
+        /* 강제 줄바꿈 허용 */
     }
 
     /* 제목은 좀 더 유연하게 */
     .product-page-title {
-        word-break: keep-all;
         line-height: 1.4;
     }
 
