@@ -947,24 +947,28 @@ img {
 
 /* 하단 중복/잔류 스타일 제거 */
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .product-hero {
-        padding: 20px var(--spacing-md);
-        gap: 20px;
+        padding: 0;
+        /* Full-Bleed: 전체 여백 제거 */
+        gap: 0;
     }
 
     .product-gallery-box {
         flex-direction: column-reverse;
-        padding: 16px;
-        gap: 16px;
+        padding: 0;
+        /* 이미지 주변 여백 제거 */
+        gap: 0;
     }
 
     .thumbnail-column {
         flex-direction: row;
         width: 100%;
         overflow-x: auto;
-        padding: 4px 0;
+        padding: 16px 20px;
+        /* 썸네일 영역 별도 여백 */
         gap: 8px;
+        background: #fff;
     }
 
     .thumb-item {
@@ -973,80 +977,54 @@ img {
         flex-shrink: 0;
     }
 
+    /* 본문 텍스트 여백 확보 */
     .product-info-box {
-        padding: 24px 16px;
+        padding: 20px;
     }
 
     .product-page-tags {
         grid-template-columns: repeat(2, 1fr);
     }
-}
 
-/* ========================================
-   반응형 - 모바일 (480px)
-   ======================================== */
-@media (max-width: 768px) {
-    .hero {
-        min-height: 50vh;
-    }
-
-    .hero-title {
-        font-size: 1.75rem;
-    }
-
-    .products-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .floating-contact {
-        bottom: var(--spacing-md);
-        right: var(--spacing-md);
-    }
-
-    .floating-btn {
-        width: 50px;
-        height: 50px;
-    }
-
-    .header-phone {
-        display: none;
+    /* Full-Bleed Main Image */
+    .main-image-container {
+        aspect-ratio: 1/1;
+        /* 정사각형 비율 (앱 표준) */
+        padding: 0;
+        background: #fff;
+        border: none;
+        border-radius: 0;
+        /* 둥근 모서리 제거 */
+        border-bottom: 1px solid #eee;
+        /* 하단 경계선 추가 */
     }
 
     .product-page-title {
         font-size: 1.3rem;
-        /* 제목 축소 */
         line-height: 1.3;
+        margin-top: 4px;
     }
 
     .product-page-subtitle {
         font-size: 1.0rem;
-        /* 소제목 축소 */
         margin-top: 2px;
     }
 
     .product-summary li {
-        font-size: 0.85rem;
-        /* 요약 텍스트 축소 */
+        font-size: 0.9rem;
         margin-bottom: 6px;
-    }
-
-    .product-info-box {
-        padding: 24px 16px;
     }
 
     .btn-text-main {
         font-size: 1.15rem;
-        /* 버튼 메인 텍스트 축소 */
     }
 
     .btn-text-sub {
         font-size: 1.15rem;
-        /* 버튼 전화번호 축소 */
     }
 
     .phone-btn-primary {
         min-height: 76px;
-        /* 버튼 높이 소폭 조정 */
         padding: 10px 0;
     }
 
@@ -1060,21 +1038,7 @@ img {
         justify-content: center;
     }
 
-    .thumb-item {
-        width: 60px;
-        height: 60px;
-    }
-
-    .main-image-container {
-        aspect-ratio: 4/3;
-        /* 1:1 -> 4:3 으로 완화 */
-        padding: 0;
-        /* 여백 제거하여 꽉 차게 */
-        background: transparent;
-        border: none;
-    }
-
-    /* 모바일 안전장치: 화면 밖으로 나가는 요소 강제 차단 */
+    /* 모바일 안전장치 */
     .container,
     .product-page,
     .product-hero {
