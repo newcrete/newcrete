@@ -690,7 +690,7 @@ img {
 }
 
 .product-summary li::before {
-    content: "??;
+    content: "\2713";
     position: absolute;
     left: 0;
     color: var(--accent-orange);
@@ -710,7 +710,7 @@ img {
 }
 
 .user-text-block li::before {
-    content: "?뷂툘";
+    content: "\2713";
     position: absolute;
     left: 0;
     font-size: 0.75rem;
