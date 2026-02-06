@@ -1212,6 +1212,41 @@ img {
         margin-top: 2px;
     }
 
+    /* === [USER REQUEST] 상품정보 하단 간격 대폭 축소 === */
+    /* 인라인 스타일을 이기기 위해 !important 사용 */
+
+    /* 1. 사이드바 내부 텍스트 (상품정보, 물리적 특성 등) */
+    .product-info-sidebar p,
+    .product-info-sidebar ul,
+    .product-info-sidebar li {
+        margin-bottom: 6px !important;
+        margin-top: 6px !important;
+        line-height: 1.35 !important;
+        /* 요청대로 훨씬 촘촘하게 */
+    }
+
+    /* 2. 상품정보/물리적특성 큰 제목들 */
+    .product-info-sidebar h2 {
+        margin-bottom: 8px !important;
+        padding-bottom: 4px !important;
+        font-size: 1.3rem !important;
+    }
+
+    /* 3. 특정 제목 (물리적 특성) 위쪽 여백 축소 */
+    .product-info-sidebar p[style*="font-size: 1.25rem"] {
+        margin-top: 20px !important;
+        /* 40px -> 20px */
+        margin-bottom: 8px !important;
+    }
+
+    /* 4. 구매문의 박스 */
+    .product-info-sidebar div[style*="border: 2px solid"] {
+        margin-top: 20px !important;
+        padding: 12px !important;
+        font-size: 1.2rem !important;
+    }
+
+
     /* 4. 상품 정보 상세 영역 (하단) 밀도 높이기 */
     .products-section,
     .product-description-section {
