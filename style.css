@@ -1118,6 +1118,99 @@ img {
     .desktop-only {
         display: none !important;
     }
+
+    /* ========================================
+       모바일 비주얼 폴리싱 (헤더, 색상, 줄간격)
+       ======================================== */
+
+    /* 1. 헤더 최적화 (사이즈/간격 축소) */
+    .header {
+        padding: 8px 16px;
+        /* 상하 패딩 축소 */
+    }
+
+    .logo {
+        font-size: 1.2rem;
+        /* 로고 축소 */
+        gap: 4px;
+    }
+
+    .logo-icon {
+        font-size: 1.0rem;
+    }
+
+    .header-nav {
+        gap: 12px;
+        /* 링크 간격 축소 */
+    }
+
+    .header-nav a {
+        font-size: 0.85rem;
+    }
+
+    .header-phone {
+        gap: 4px;
+    }
+
+    .header-phone span:first-child {
+        font-size: 0.9rem;
+        /* 아이콘 */
+    }
+
+    .header-phone span:last-child {
+        font-size: 0.9rem;
+        /* 전화번호 */
+    }
+
+    /* 2. 색상 옵션: 2열 배치 (00 00) */
+    .option-chips {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 8px !important;
+    }
+
+    .option-chips .chip {
+        width: 100% !important;
+        height: auto !important;
+        aspect-ratio: 1/1;
+        /* 정사각형 유지 */
+        border-radius: 6px;
+    }
+
+    /* 3. 줄간격 및 여백 축소 (밀도 높이기) */
+    .product-summary li {
+        margin-bottom: 6px;
+        line-height: 1.45;
+        font-size: 0.9rem;
+    }
+
+    .description-content {
+        line-height: 1.6;
+        /* 2.0 -> 1.6 축소 */
+    }
+
+    .description-content h3 {
+        margin: 24px 0 10px;
+        /* 제목 위아래 간격 축소 */
+        font-size: 1.15rem;
+    }
+
+    .description-content p {
+        margin-bottom: 12px;
+    }
+
+    .description-content ul {
+        margin: 12px 0;
+    }
+
+    /* 본문 제목 간격도 조금 타이트하게 */
+    .product-page-title {
+        margin: 4px 0 6px;
+    }
+
+    .product-page-subtitle {
+        margin-top: 2px;
+    }
 }
 
 /* ========================================
