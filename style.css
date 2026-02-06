@@ -63,6 +63,10 @@ body {
     color: var(--text-primary);
     line-height: 1.6;
     min-height: 100vh;
+    overflow-x: hidden;
+    /* 가로 스크롤 방지 */
+    width: 100%;
+    position: relative;
 }
 
 a {
@@ -234,7 +238,8 @@ img {
 
 .products-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    /* 320px -> 280px 로 완화하여 모바일 대응 */
     gap: var(--spacing-lg);
 }
 
