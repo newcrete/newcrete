@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="793.70667"
+   height="1122.52"
+   viewBox="0 0 793.70667 1122.52"
+   sodipodi:docname="뉴크리트로고.ai"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2">
+      <path
+         d="M 0,841.89 H 595.28 V 0 H 0 Z"
+         transform="translate(-51.914602,-584.35162)"
+         id="path2" />
+    </clipPath>
+    <linearGradient
+       x1="0"
+       y1="0"
+       x2="1"
+       y2="0"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(92.992187,0,0,-92.992187,18.283691,623.64355)"
+       spreadMethod="pad"
+       id="linearGradient4">
+      <stop
+         style="stop-opacity:1;stop-color:#d44100"
+         offset="0"
+         id="stop2" />
+      <stop
+         style="stop-opacity:1;stop-color:#ef7a15"
+         offset="0.46076367"
+         id="stop3" />
+      <stop
+         style="stop-opacity:1;stop-color:#ef7a15"
+         offset="1"
+         id="stop4" />
+    </linearGradient>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath6">
+      <path
+         d="M 0,841.89 H 595.28 V 0 H 0 Z"
+         transform="translate(-116.4429,-675.28372)"
+         id="path6" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1">
+    <inkscape:page
+       x="0"
+       y="0"
+       inkscape:label="1"
+       id="page1"
+       width="793.70667"
+       height="1122.52"
+       margin="700.13202 43.986668 190.76801 17.489599"
+       bleed="0" />
+  </sodipodi:namedview>
+  <g
+     id="layer-MC0"
+     inkscape:groupmode="layer"
+     inkscape:label="레이어 1">
+    <path
+       id="path1"
+       d="m 0,0 c 0,0 -60.62,43.3 -30.311,85.158 0,0 64.954,2.884 88.045,-42.58 0,0 23.093,-41.136 -15.877,-48.352 0,0 -30.244,-4.08 -41.857,5.774"
+       style="fill:#e74c1d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="matrix(1.3333333,0,0,-1.3333333,69.219467,343.38453)"
+       clip-path="url(#clipPath2)" />
+    <path
+       id="path4"
+       d="M 25.922,664.923 C -1.357,627.251 53.203,588.28 53.203,588.28 v 0 c 10.449,-8.866 37.67,-5.195 37.67,-5.195 v 0 c 35.073,6.493 14.289,43.517 14.289,43.517 v 0 c -18.444,36.31 -66.559,38.354 -77.156,38.354 v 0 c -1.343,0 -2.084,-0.033 -2.084,-0.033"
+       transform="matrix(1.3333333,0,0,-1.3333333,0,1122.52)"
+       style="fill:url(#linearGradient4);stroke:none" />
+    <path
+       id="path5"
+       d="m 0,0 c 0,0 9.083,30.311 26.403,0 0,0 21.65,-28.867 8.66,-59.177 0,0 -21.052,-4.332 -35.063,18.763 z"
+       style="fill:#e74c1d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="matrix(1.3333333,0,0,-1.3333333,155.2572,222.14173)"
+       clip-path="url(#clipPath6)" />
+    <text
+       id="text6"
+       xml:space="preserve"
+       transform="matrix(1.3333333,0,0,1.3333333,230.20773,306.216)"><tspan
+         id="tspan6"
+         style="font-variant:normal;font-weight:800;font-stretch:normal;font-size:105.915px;font-family:NanumSquareEB;writing-mode:lr-tb;fill:#ff7300;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="0"
+         y="0">뉴</tspan></text>
+    <text
+       id="text7"
+       xml:space="preserve"
+       transform="matrix(1.3333333,0,0,1.3333333,357.87013,306.216)"><tspan
+         id="tspan7"
+         style="font-variant:normal;font-weight:800;font-stretch:normal;font-size:105.915px;font-family:NanumSquareEB;writing-mode:lr-tb;fill:#3f3f3f;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="0"
+         dx="0 -0.63548762 -0.63548762"
+         y="0">크리트</tspan></text>
+    <text
+       id="text8"
+       xml:space="preserve"
+       transform="matrix(1.3333333,0,0,1.3333333,240.38213,405.3)"><tspan
+         id="tspan8"
+         style="font-variant:normal;font-weight:800;font-stretch:normal;font-size:53.1336px;font-family:NanumMyeongjoExtraBold;writing-mode:lr-tb;fill:#828282;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="0"
+         dx="0 0.74387038 0.71730357 0.71730357 0.71730357 0.74387038 0.71730357 0.71730357 0.74387038 0.74387038 0.74387038 0.74387038 0.74387038 0.74387038 0.74387038"
+         y="0">Flooring System</tspan></text>
+  </g>
+</svg>
