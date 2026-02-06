@@ -941,14 +941,33 @@ img {
 
 @media (min-width: 1024px) {
     .product-hero {
-        grid-template-columns: 1.8fr 1fr;
-        /* 이미지 비중을 압도적으로 확대 */
-        gap: 60px;
+        display: grid !important;
+        /* 모바일 Block 설정 오버라이드 복구 */
+        grid-template-columns: 1.8fr 1fr !important;
+        /* 이미지 비중 복구 */
+        gap: 60px !important;
         align-items: flex-start;
         max-width: 1500px;
-        /* 전체 너비 확장으로 이미지 크기 극대화 */
         margin: 0 auto;
-        padding: 40px var(--spacing-md);
+        padding: 40px var(--spacing-md) !important;
+    }
+
+    .product-gallery-box {
+        display: flex !important;
+        /* 데스크탑 갤러리 복구 */
+        flex-direction: row !important;
+        gap: 20px !important;
+    }
+
+    .product-info-box {
+        display: block !important;
+        margin-top: 0 !important;
+        /* 모바일용 마진 초기화 */
+        padding: 0 !important;
+    }
+
+    .product-info-sidebar {
+        padding: 0 !important;
     }
 
     .main-image-container {
