@@ -917,44 +917,23 @@ img {
 }
 
 /* ========================================
-   반응형 - 태블릿 이상
+   반응형 - 데스크탑 (1024px 이상)
    ======================================== */
-@media (min-width: 768px) {
-    .product-hero {
-        grid-template-columns: 80px 1fr;
-        gap: var(--spacing-lg);
-        align-items: start;
-    }
-
-    .product-info-sidebar {
-        grid-column: 1 / span 2;
-    }
-
-    .contact-buttons {
-        flex-direction: row;
-    }
-
-    .contact-btn {
-        flex: 1;
-    }
-}
-
 @media (min-width: 1024px) {
     .product-hero {
         display: grid !important;
-        /* 모바일 Block 설정 오버라이드 복구 */
-        grid-template-columns: 1.8fr 1fr !important;
-        /* 이미지 비중 복구 */
+        grid-template-columns: 1.6fr 1fr !important;
+        /* 이미지 비중 조절 (1.8 -> 1.6) */
         gap: 60px !important;
         align-items: flex-start;
-        max-width: 1500px;
+        max-width: 1400px;
+        /* 너무 넓지 않게 제한 */
         margin: 0 auto;
         padding: 40px var(--spacing-md) !important;
     }
 
     .product-gallery-box {
         display: flex !important;
-        /* 데스크탑 갤러리 복구 */
         flex-direction: row !important;
         gap: 20px !important;
     }
@@ -962,7 +941,6 @@ img {
     .product-info-box {
         display: block !important;
         margin-top: 0 !important;
-        /* 모바일용 마진 초기화 */
         padding: 0 !important;
     }
 
@@ -972,7 +950,6 @@ img {
 
     .main-image-container {
         aspect-ratio: 1/1;
-        /* 옵션이 하단에 배치되므로 다시 정사각형으로 조절하여 안정감 부여 */
     }
 }
 
