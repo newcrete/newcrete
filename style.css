@@ -1658,5 +1658,11 @@ img {
 
     .main-image-container {
         aspect-ratio: 1/1;
+        width: 100%;
+        /* 부모에 맞춤 */
+        min-width: 0;
+        /* Flex item overflow 방지 (핵심) */
+        overflow: hidden;
+        /* 안전장치 */
     }
 }
