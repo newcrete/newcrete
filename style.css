@@ -1,8 +1,8 @@
-/* ========================================
-   NEWCRETE Store - ?��??�시??(?�이??모드)
+﻿/* ========================================
+   NEWCRETE Store - ?ㅽ??쇱떆??(?쇱씠??紐⑤뱶)
    ======================================== */
 
-/* 기본 ?�정 */
+/* 湲곕낯 ?ㅼ젙 */
 /* Global Reset */
 * {
     box-sizing: border-box;
@@ -11,7 +11,7 @@
 }
 
 :root {
-    /* ?�상 - ?�이??모드 */
+    /* ?됱긽 - ?쇱씠??紐⑤뱶 */
     --bg-primary: #ffffff;
     --bg-secondary: #f8f9fa;
     --bg-card: #ffffff;
@@ -33,7 +33,7 @@
     --border-color: #e5e7eb;
     --border-color-light: #f3f4f6;
 
-    /* 간격 */
+    /* 媛꾧꺽 */
     --spacing-xs: 0.5rem;
     --spacing-sm: 1rem;
     --spacing-md: 1.5rem;
@@ -41,13 +41,13 @@
     --spacing-xl: 3rem;
     --spacing-2xl: 4rem;
 
-    /* 반응??*/
+    /* 諛섏쓳??*/
     --container-max: 1200px;
     --border-radius: 12px;
     --border-radius-sm: 8px;
     --border-radius-lg: 16px;
 
-    /* 그림??*/
+    /* 洹몃┝??*/
     --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
     --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.1);
     --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.12);
@@ -67,13 +67,13 @@ html {
 body {
     font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
     background-color: #ffffff !important;
-    /* ?�크모드 강제 ?�버?�이??*/
+    /* ?ㅽ겕紐⑤뱶 媛뺤젣 ?ㅻ쾭?쇱씠??*/
     color: #1a1a1a !important;
-    /* ?�스???�상 고정 */
+    /* ?띿뒪???됱긽 怨좎젙 */
     line-height: 1.6;
     min-height: 100vh;
     overflow-x: hidden;
-    /* 가�??�크�?방�? */
+    /* 媛濡??ㅽ겕濡?諛⑹? */
     width: 100%;
     position: relative;
 }
@@ -88,7 +88,7 @@ img {
     height: auto;
 }
 
-/* 기본?�으�?모바???�라?�더???��? */
+/* 湲곕낯?곸쑝濡?紐⑤컮???щ씪?대뜑???④? */
 .mobile-image-swiper {
     display: none;
 }
@@ -100,7 +100,7 @@ img {
 }
 
 /* ========================================
-   ?�더
+   ?ㅻ뜑
    ======================================== */
 .header {
     position: fixed;
@@ -166,7 +166,7 @@ img {
 }
 
 /* ========================================
-   ?�어�??�션
+   ?덉뼱濡??뱀뀡
    ======================================== */
 .hero {
     position: relative;
@@ -224,7 +224,7 @@ img {
 }
 
 /* ========================================
-   ?�품 ?�션
+   ?곹뭹 ?뱀뀡
    ======================================== */
 .products-section {
     padding: var(--spacing-2xl) 0;
@@ -251,12 +251,12 @@ img {
 .products-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    /* 320px -> 280px �??�화?�여 모바???�??*/
+    /* 320px -> 280px 濡??꾪솕?섏뿬 紐⑤컮?????*/
     gap: var(--spacing-lg);
 }
 
 /* ========================================
-   ?�품 카드
+   ?곹뭹 移대뱶
    ======================================== */
 .product-card {
     background: var(--bg-card);
@@ -346,7 +346,7 @@ img {
 }
 
 /* ========================================
-   ?�품 ?�세 ?�이지
+   ?곹뭹 ?곸꽭 ?섏씠吏
    ======================================== */
 .product-page {
     padding-top: 80px;
@@ -359,7 +359,7 @@ img {
     padding: var(--spacing-xl) 0;
 }
 
-/* 3???�이?�웃 ?�심 */
+/* 3???덉씠?꾩썐 ?듭떖 */
 .product-gallery-wrapper {
     display: flex;
     gap: var(--spacing-sm);
@@ -414,9 +414,9 @@ img {
     border-radius: 4px;
     overflow: hidden;
     aspect-ratio: 1/1;
-    /* ?�사각형 비율�??��?지 부�?*/
+    /* ?뺤궗媛곹삎 鍮꾩쑉濡??대?吏 遺媛?*/
     max-height: 800px;
-    /* ?????��?지�??�해 ?�이 ?�한 ?�향 */
+    /* ?????대?吏瑜??꾪빐 ?믪씠 ?쒗븳 ?곹뼢 */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -441,7 +441,7 @@ img {
     flex-direction: column;
     gap: 12px;
     padding-left: 0;
-    /* ?�백 ?�거?�여 ?��?지 공간 ?�보 */
+    /* ?щ갚 ?쒓굅?섏뿬 ?대?吏 怨듦컙 ?뺣낫 */
 }
 
 .brand-label {
@@ -449,7 +449,7 @@ img {
     font-weight: 500;
     font-size: 0.95rem;
     margin-bottom: 0px;
-    /* 0?�로 축소 */
+    /* 0?쇰줈 異뺤냼 */
 }
 
 .rating-area {
@@ -481,7 +481,7 @@ img {
     font-size: 1.8rem;
     font-weight: 700;
     color: #ae0000;
-    /* 쿠팡 가�??�드 */
+    /* 荑좏뙜 媛寃??덈뱶 */
 }
 
 .price-unit {
@@ -490,7 +490,7 @@ img {
     color: #ae0000;
 }
 
-/* 추�? ?�보 ?�벨 (무료배송 ?? */
+/* 異붽? ?뺣낫 ?쇰꺼 (臾대즺諛곗넚 ?? */
 .delivery-notice {
     font-size: 0.9rem;
     color: #333;
@@ -518,7 +518,7 @@ img {
 
 
 
-/* ?�티????�?*/
+/* ?ㅽ떚????諛?*/
 .sticky-tabs {
     position: sticky;
     top: 60px;
@@ -579,31 +579,31 @@ img {
 
 .product-page-title {
     font-size: 1.7rem;
-    /* ?�체?�으�??�짝 ???��? */
+    /* ?꾩껜?곸쑝濡??댁쭩 ???ㅼ? */
     font-weight: 700;
     color: var(--text-primary);
     line-height: 1.4;
     margin: 0px 0 4px;
-    /* ?�쪽 ?�백 ?�거 */
+    /* ?꾩そ ?щ갚 ?쒓굅 */
 }
 
 .product-page-subtitle {
     display: block;
     font-size: 1.0rem;
     font-weight: 700;
-    /* 볼드�??�용 */
+    /* 蹂쇰뱶泥??곸슜 */
     color: var(--text-primary);
-    /* ?�목�??�일???�상?�로 복구 */
+    /* ?쒕ぉ怨??숈씪???됱긽?쇰줈 蹂듦뎄 */
     margin-top: 4px;
     letter-spacing: -0.02em;
 }
 
-/* ?�상 ?�택 고도???��???- 박스리스 ?�자??*/
+/* ?됱긽 ?좏깮 怨좊룄???ㅽ???- 諛뺤뒪由ъ뒪 ?붿옄??*/
 .option-selector {
     margin: 10px 0 4px;
-    /* ?�래�??�백 축소 */
+    /* ?꾨옒履??щ갚 異뺤냼 */
     border: none !important;
-    /* 모든 ?�곽 ?�두�?강제 ?�거 */
+    /* 紐⑤뱺 ?멸낸 ?뚮몢由?媛뺤젣 ?쒓굅 */
     padding: 0;
 }
 
@@ -629,13 +629,13 @@ img {
     width: 60px;
     height: 60px;
     border: none;
-    /* 기본 ?�두�??�전 ?�거 */
+    /* 湲곕낯 ?뚮몢由??꾩쟾 ?쒓굅 */
     border-radius: 8px;
     cursor: pointer;
     transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
     object-fit: cover;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-    /* ?�체감을 ?�한 미세??그림??*/
+    /* ?낆껜媛먯쓣 ?꾪븳 誘몄꽭??洹몃┝??*/
 }
 
 .option-chips .chip:hover {
@@ -645,13 +645,13 @@ img {
 
 .option-chips .chip.active {
     transform: scale(1.1);
-    /* 박스 ?�???�기 ?��?�?강조 */
+    /* 諛뺤뒪 ????ш린 ?뺣?濡?媛뺤“ */
     box-shadow: 0 4px 15px rgba(52, 106, 255, 0.3);
-    /* 블루 컬러 그림?�로 ?�?�?�게 ?�시 */
+    /* 釉붾（ 而щ윭 洹몃┝?먮줈 ???섍쾶 ?쒖떆 */
     z-index: 1;
 }
 
-/* 브랜???�로�??��???*/
+/* 釉뚮옖???щ줈嫄??ㅽ???*/
 .product-slogan {
     background: var(--accent-orange-light);
     border-left: 4px solid var(--accent-orange);
@@ -683,7 +683,7 @@ img {
     font-size: 0.95rem;
     color: #555;
     font-weight: 700;
-    /* ?�체 문구 볼드 ?�용 */
+    /* ?꾩껜 臾멸뎄 蹂쇰뱶 ?곸슜 */
     margin-bottom: 4px;
     padding-left: 12px;
     position: relative;
@@ -694,10 +694,10 @@ img {
     position: absolute;
     left: 0;
     color: var(--accent-orange);
-    /* ?�인??컬러�?변�?*/
+    /* ?ъ씤??而щ윭濡?蹂寃?*/
 }
 
-/* ?�품?�명 ?�단 ?�스??블록 ?�돈 */
+/* ?곹뭹?ㅻ챸 ?섎떒 ?띿뒪??釉붾줉 ?뺣룉 */
 .user-text-block ul {
     list-style: none !important;
     padding-left: 0 !important;
@@ -710,26 +710,26 @@ img {
 }
 
 .user-text-block li::before {
-    content: "?�️";
+    content: "?뷂툘";
     position: absolute;
     left: 0;
     font-size: 0.75rem;
 }
 
-/* ?�단 ?�상 ?�션 ?��???보강 */
+/* ?섎떒 ?됱긽 ?듭뀡 ?ㅽ???蹂닿컯 */
 .color-options {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
-    /* 간격??25px?�서 15px�?축소 */
+    /* 媛꾧꺽??25px?먯꽌 15px濡?異뺤냼 */
     margin: 0 0 20px;
-    /* ?�단 ?�백 ?�거 */
+    /* ?곷떒 ?щ갚 ?쒓굅 */
     padding: 0;
-    /* 박스 ?�낌 ?�거�??�해 ?�딩 ?�거 */
+    /* 諛뺤뒪 ?먮굦 ?쒓굅瑜??꾪빐 ?⑤뵫 ?쒓굅 */
     background: transparent;
-    /* 배경 ?�거 */
+    /* 諛곌꼍 ?쒓굅 */
     border: none;
-    /* ?�두�??�거 */
+    /* ?뚮몢由??쒓굅 */
 }
 
 .color-item {
@@ -749,7 +749,7 @@ img {
     object-fit: cover;
     border: 3px solid #eee;
     margin-bottom: 2px !important;
-    /* ?�백 강제 축소 */
+    /* ?щ갚 媛뺤젣 異뺤냼 */
     transition: border-color 0.2s;
 }
 
@@ -757,14 +757,14 @@ img {
     border-color: var(--accent-orange);
 }
 
-/* ?�화 문의 버튼 (쿠팡 ?��????�일 CTA - 2??구성) */
+/* ?꾪솕 臾몄쓽 踰꾪듉 (荑좏뙜 ?ㅽ????⑥씪 CTA - 2??援ъ꽦) */
 .contact-buttons {
     display: block;
     margin-top: 8px;
-    /* 24px -> 8px 축소 */
+    /* 24px -> 8px 異뺤냼 */
     border-top: 1px solid #eee;
     padding-top: 8px;
-    /* 20px -> 8px 축소 */
+    /* 20px -> 8px 異뺤냼 */
 }
 
 .phone-btn-primary {
@@ -776,7 +776,7 @@ img {
     padding: 12px 0;
     min-height: 84px;
     background: #346aff;
-    /* 쿠팡 바로구매 블루 */
+    /* 荑좏뙜 諛붾줈援щℓ 釉붾（ */
     color: white !important;
     border-radius: 4px;
     transition: background 0.2s, transform 0.1s;
@@ -818,7 +818,7 @@ img {
     opacity: 0.9;
 }
 
-/* ?�세 ?�명 ?�역 */
+/* ?곸꽭 ?ㅻ챸 ?곸뿭 */
 .product-description-section {
     padding: var(--spacing-2xl) 0;
     border-top: 1px solid var(--border-color);
@@ -913,7 +913,7 @@ img {
 }
 
 /* ========================================
-   ?�로??버튼
+   ?뚮줈??踰꾪듉
    ======================================== */
 .floating-contact {
     position: fixed;
@@ -951,7 +951,7 @@ img {
 }
 
 /* ========================================
-   ?�터
+   ?명꽣
    ======================================== */
 .footer {
     background: var(--bg-secondary);
@@ -998,19 +998,19 @@ img {
 
 /* [MOVED] Desktop styles moved to bottom for precedence */
 
-/* ?�단 중복/?�류 ?��????�거 */
+/* ?섎떒 以묐났/?붾쪟 ?ㅽ????쒓굅 */
 
 @media (max-width: 767px) {
     .product-hero {
         padding: 0;
-        /* Full-Bleed: ?�체 ?�백 ?�거 */
+        /* Full-Bleed: ?꾩껜 ?щ갚 ?쒓굅 */
         gap: 0;
     }
 
     .product-gallery-box {
         flex-direction: column-reverse;
         padding: 0;
-        /* ?��?지 주�? ?�백 ?�거 */
+        /* ?대?吏 二쇰? ?щ갚 ?쒓굅 */
         gap: 0;
     }
 
@@ -1019,7 +1019,7 @@ img {
         width: 100%;
         overflow-x: auto;
         padding: 16px 20px;
-        /* ?�네???�역 별도 ?�백 */
+        /* ?몃꽕???곸뿭 蹂꾨룄 ?щ갚 */
         gap: 8px;
         background: #fff;
     }
@@ -1030,7 +1030,7 @@ img {
         flex-shrink: 0;
     }
 
-    /* 본문 ?�스???�백 ?�보 */
+    /* 蹂몃Ц ?띿뒪???щ갚 ?뺣낫 */
     .product-info-box {
         padding: 20px;
     }
@@ -1042,14 +1042,14 @@ img {
     /* Full-Bleed Main Image */
     .main-image-container {
         aspect-ratio: 1/1;
-        /* ?�사각형 비율 (???��?) */
+        /* ?뺤궗媛곹삎 鍮꾩쑉 (???쒖?) */
         padding: 0;
         background: #fff;
         border: none;
         border-radius: 0;
-        /* ?�근 모서�??�거 */
+        /* ?κ렐 紐⑥꽌由??쒓굅 */
         border-bottom: 1px solid #eee;
-        /* ?�단 경계??추�? */
+        /* ?섎떒 寃쎄퀎??異붽? */
     }
 
     .product-page-title {
@@ -1091,12 +1091,12 @@ img {
         justify-content: center;
     }
 
-    /* 모바???�이?�웃 ?�순??*/
+    /* 紐⑤컮???덉씠?꾩썐 ?⑥닚??*/
     .product-hero,
     .product-gallery-box,
     .product-info-box {
         display: block;
-        /* !important ?�거 */
+        /* !important ?쒓굅 */
         width: 100%;
         max-width: 100%;
     }
@@ -1106,12 +1106,12 @@ img {
         margin-top: 20px;
     }
 
-    /* 모바???�전?�치: ?�면 밖으�??��????�소 강제 차단 */
+    /* 紐⑤컮???덉쟾?μ튂: ?붾㈃ 諛뽰쑝濡??섍????붿냼 媛뺤젣 李⑤떒 */
     .container,
     .product-page,
     .product-hero {
         max-width: 100%;
-        /* 100vw -> 100% ?�정 (?�크롤바 ?�함 ?�비 문제 ?�결) */
+        /* 100vw -> 100% ?섏젙 (?ㅽ겕濡ㅻ컮 ?ы븿 ?덈퉬 臾몄젣 ?닿껐) */
         overflow-x: hidden;
     }
 
@@ -1119,7 +1119,7 @@ img {
         max-width: 100% !important;
     }
 
-    /* ?�스??줄바�?최적??(?�로 ?�열 방�?) */
+    /* ?띿뒪??以꾨컮轅?理쒖쟻??(?몃줈 ?섏뿴 諛⑹?) */
     .product-page-title,
     .brand-label,
     .product-summary li,
@@ -1127,24 +1127,24 @@ img {
     .price-value,
     .product-info-sidebar p {
         word-break: keep-all;
-        /* ?�어 ?�위 ?��? */
+        /* ?⑥뼱 ?⑥쐞 ?좎? */
         word-wrap: break-word;
-        /* �??�어??줄바�?*/
+        /* 湲??⑥뼱??以꾨컮轅?*/
         overflow-wrap: anywhere;
-        /* 강제 줄바�??�용 */
+        /* 媛뺤젣 以꾨컮轅??덉슜 */
     }
 
-    /* ?�목?� 좀 ???�연?�게 */
+    /* ?쒕ぉ? 醫 ???좎뿰?섍쾶 */
     .product-page-title {
         line-height: 1.4;
     }
 
-    /* 모바???�용 ?�라?�더 보이�?*/
+    /* 紐⑤컮???꾩슜 ?щ씪?대뜑 蹂댁씠湲?*/
     .mobile-image-swiper {
         display: block !important;
         width: 100%;
         aspect-ratio: 1/1;
-        /* ???��????�사각형 */
+        /* ???ㅽ????뺤궗媛곹삎 */
         border-bottom: 1px solid #eee;
     }
 
@@ -1152,28 +1152,28 @@ img {
         width: 100%;
         height: 100%;
         object-fit: contain;
-        /* Full-Bleed ?�면???��???contain */
+        /* Full-Bleed ?섎㈃???대???contain */
         background: #fff;
     }
 
-    /* ?�스?�탑 ?�소 ?��? */
+    /* ?곗뒪?ы깙 ?붿냼 ?④? */
     .desktop-only {
         display: none !important;
     }
 
     /* ========================================
-       모바??비주???�리??(?�더, ?�상, 줄간�?
+       紐⑤컮??鍮꾩＜???대━??(?ㅻ뜑, ?됱긽, 以꾧컙寃?
        ======================================== */
 
-    /* 1. ?�더 최적??(?�이�?간격 축소) */
+    /* 1. ?ㅻ뜑 理쒖쟻??(?ъ씠利?媛꾧꺽 異뺤냼) */
     .header {
         padding: 8px 16px;
-        /* ?�하 ?�딩 축소 */
+        /* ?곹븯 ?⑤뵫 異뺤냼 */
     }
 
     .logo {
         font-size: 1.2rem;
-        /* 로고 축소 */
+        /* 濡쒓퀬 異뺤냼 */
         gap: 4px;
     }
 
@@ -1183,7 +1183,7 @@ img {
 
     .header-nav {
         gap: 12px;
-        /* 링크 간격 축소 */
+        /* 留곹겕 媛꾧꺽 異뺤냼 */
     }
 
     .header-nav a {
@@ -1196,15 +1196,15 @@ img {
 
     .header-phone span:first-child {
         font-size: 0.9rem;
-        /* ?�이�?*/
+        /* ?꾩씠肄?*/
     }
 
     .header-phone span:last-child {
         font-size: 0.9rem;
-        /* ?�화번호 */
+        /* ?꾪솕踰덊샇 */
     }
 
-    /* 2. ?�상 ?�션: 2??배치 (00 00) */
+    /* 2. ?됱긽 ?듭뀡: 2??諛곗튂 (00 00) */
     .option-chips {
         display: grid;
         grid-template-columns: repeat(2, 1fr) !important;
@@ -1215,11 +1215,11 @@ img {
         width: 100% !important;
         height: auto !important;
         aspect-ratio: 1/1;
-        /* ?�사각형 ?��? */
+        /* ?뺤궗媛곹삎 ?좎? */
         border-radius: 6px;
     }
 
-    /* 3. 줄간�?�??�백 축소 (밀???�이�? */
+    /* 3. 以꾧컙寃?諛??щ갚 異뺤냼 (諛???믪씠湲? */
     .product-summary li {
         margin-bottom: 6px;
         line-height: 1.45;
@@ -1228,12 +1228,12 @@ img {
 
     .description-content {
         line-height: 1.6;
-        /* 2.0 -> 1.6 축소 */
+        /* 2.0 -> 1.6 異뺤냼 */
     }
 
     .description-content h3 {
         margin: 24px 0 10px;
-        /* ?�목 ?�아??간격 축소 */
+        /* ?쒕ぉ ?꾩븘??媛꾧꺽 異뺤냼 */
         font-size: 1.15rem;
     }
 
@@ -1245,7 +1245,7 @@ img {
         margin: 12px 0;
     }
 
-    /* 본문 ?�목 간격??조금 ?�?�트?�게 */
+    /* 蹂몃Ц ?쒕ぉ 媛꾧꺽??議곌툑 ??댄듃?섍쾶 */
     .product-page-title {
         margin: 4px 0 6px;
     }
@@ -1254,34 +1254,34 @@ img {
         margin-top: 2px;
     }
 
-    /* === [USER REQUEST] ?�품?�보 ?�단 간격 ?�??축소 === */
-    /* ?�라???��??�을 ?�기�??�해 !important ?�용 */
+    /* === [USER REQUEST] ?곹뭹?뺣낫 ?섎떒 媛꾧꺽 ???異뺤냼 === */
+    /* ?몃씪???ㅽ??쇱쓣 ?닿린湲??꾪빐 !important ?ъ슜 */
 
-    /* 1. ?�이?�바 ?��? ?�스??(?�품?�보, 물리???�성 ?? */
+    /* 1. ?ъ씠?쒕컮 ?대? ?띿뒪??(?곹뭹?뺣낫, 臾쇰━???뱀꽦 ?? */
     .product-info-sidebar p,
     .product-info-sidebar ul,
     .product-info-sidebar li {
         margin-bottom: 6px !important;
         margin-top: 6px !important;
         line-height: 1.35 !important;
-        /* ?�청?��??�씬 촘촘?�게 */
+        /* ?붿껌?濡??⑥뵮 珥섏킌?섍쾶 */
     }
 
-    /* 2. ?�품?�보/물리?�특?????�목??*/
+    /* 2. ?곹뭹?뺣낫/臾쇰━?곹듅?????쒕ぉ??*/
     .product-info-sidebar h2 {
         margin-bottom: 8px !important;
         padding-bottom: 4px !important;
         font-size: 1.3rem !important;
     }
 
-    /* 3. ?�정 ?�목 (물리???�성) ?�쪽 ?�백 축소 */
+    /* 3. ?뱀젙 ?쒕ぉ (臾쇰━???뱀꽦) ?꾩そ ?щ갚 異뺤냼 */
     .product-info-sidebar p[style*="font-size: 1.25rem"] {
         margin-top: 20px !important;
         /* 40px -> 20px */
         margin-bottom: 8px !important;
     }
 
-    /* 4. 구매문의 박스 */
+    /* 4. 援щℓ臾몄쓽 諛뺤뒪 */
     .product-info-sidebar div[style*="border: 2px solid"] {
         margin-top: 20px !important;
         padding: 12px !important;
@@ -1289,17 +1289,17 @@ img {
     }
 
 
-    /* 4. ?�품 ?�보 ?�세 ?�역 (?�단) 밀???�이�?*/
+    /* 4. ?곹뭹 ?뺣낫 ?곸꽭 ?곸뿭 (?섎떒) 諛???믪씠湲?*/
     .products-section,
     .product-description-section {
         padding: 24px 0 !important;
-        /* ?�션 ?�하 ?�백 ?�??축소 */
+        /* ?뱀뀡 ?곹븯 ?щ갚 ???異뺤냼 */
     }
 
     .section-title {
         font-size: 1.5rem;
         margin-bottom: 20px;
-        /* ?�목 ?�래 ?�백 축소 */
+        /* ?쒕ぉ ?꾨옒 ?щ갚 異뺤냼 */
     }
 
     .feature-box {
@@ -1314,7 +1314,7 @@ img {
 
     .feature-grid {
         gap: 12px;
-        /* 그리??간격 축소 */
+        /* 洹몃━??媛꾧꺽 異뺤냼 */
     }
 
     .feature-item {
@@ -1323,7 +1323,7 @@ img {
 }
 
 /* ========================================
-   ?�크롤바
+   ?ㅽ겕濡ㅻ컮
    ======================================== */
 ::-webkit-scrollbar {
     width: 8px;
@@ -1343,7 +1343,7 @@ img {
 }
 
 /* ========================================
-   브레?�크??
+   釉뚮젅?쒗겕??
    ======================================== */
 .breadcrumb {
     padding: var(--spacing-sm) 0;
@@ -1365,13 +1365,13 @@ img {
 }
 
 /* ========================================
-   ?�상 ?�션
+   ?곸긽 ?뱀뀡
    ======================================== */
 }
 
 /* End of Mobile Media Query (One brace is enough) */
 
-/* Double Close: ?�실?�게 모바??쿼리 종료 */
+/* Double Close: ?뺤떎?섍쾶 紐⑤컮??荑쇰━ 醫낅즺 */
 
 /* End of Mobile Media Query (Force Close Checks) */
 
@@ -1379,14 +1379,14 @@ img {
     position: relative;
     width: 100%;
     padding-bottom: 56.25%;
-    /* 16:9 비율 */
+    /* 16:9 鍮꾩쑉 */
     margin: var(--spacing-md) 0;
     border-radius: var(--border-radius);
     overflow: hidden;
     background: #000;
-    /* 비디??로딩 ??검?� 배경 */
+    /* 鍮꾨뵒??濡쒕뵫 ??寃? 諛곌꼍 */
     min-height: 200px;
-    /* 로딩 ?�패 ??최소 ?�이 ?�보 */
+    /* 濡쒕뵫 ?ㅽ뙣 ??理쒖냼 ?믪씠 ?뺣낫 */
 }
 
 .video-container iframe {
@@ -1397,7 +1397,7 @@ img {
     height: 100%;
     border: none;
     max-width: 100%;
-    /* ?�전?�치 */
+    /* ?덉쟾?μ튂 */
 }
 
 .video-caption {
@@ -1414,7 +1414,7 @@ img {
 }
 
 /* ========================================
-   ?��?지 갤러�?
+   ?대?吏 媛ㅻ윭由?
    ======================================== */
 .image-gallery {
     display: grid;
@@ -1452,7 +1452,7 @@ img {
 }
 
 /* ========================================
-   ?�상 ?�션
+   ?됱긽 ?듭뀡
    ======================================== */
 .color-options {
     display: flex;
@@ -1490,7 +1490,7 @@ img {
 }
 
 /* ========================================
-   ?�보 박스
+   ?뺣낫 諛뺤뒪
    ======================================== */
 .info-box {
     background: var(--accent-orange-light);
@@ -1510,7 +1510,7 @@ img {
 }
 
 /* ========================================
-   ?�심 ?�징 미니 그리??(?�품 ?�이지 ?�른�?
+   ?듭떖 ?뱀쭠 誘몃땲 洹몃━??(?곹뭹 ?섏씠吏 ?ㅻⅨ履?
    ======================================== */
 .quick-features {
     display: grid;
@@ -1540,7 +1540,7 @@ img {
 }
 
 /* ========================================
-   빠른 ?�내 박스
+   鍮좊Ⅸ ?덈궡 諛뺤뒪
    ======================================== */
 .quick-notice {
     margin-top: var(--spacing-md);
@@ -1562,7 +1562,7 @@ img {
 }
 
 /* ========================================
-   ?�공방법 ?�션
+   ?쒓났諛⑸쾿 ?뱀뀡
    ======================================== */
 .construction-steps {
     display: flex;
@@ -1615,7 +1615,7 @@ img {
 }
 
 /* ========================================
-   블로�?카드 그리??
+   釉붾줈洹?移대뱶 洹몃━??
    ======================================== */
 .blog-card-grid {
     display: grid;
@@ -1722,12 +1722,12 @@ img {
     .product-hero {
         display: grid;
         grid-template-columns: 710px 1fr;
-        /* ?�네??80)+간격(30)+?��?지(600) ?�확???�용 */
+        /* ?몃꽕??80)+媛꾧꺽(30)+?대?吏(600) ?뺥솗???섏슜 */
         gap: 60px;
-        /* 침범 ?�결???�해 간격 ?�짝 조정 */
+        /* 移⑤쾾 ?닿껐???꾪빐 媛꾧꺽 ?댁쭩 議곗젙 */
         align-items: start;
         max-width: 1400px;
-        /* ???�게 ?�용 */
+        /* ???볤쾶 ?덉슜 */
         margin: 0 auto;
         padding: 60px 40px;
     }
@@ -1738,7 +1738,7 @@ img {
         gap: 30px;
         align-items: flex-start;
         position: sticky;
-        /* ?�크�????��?지 고정 */
+        /* ?ㅽ겕濡????대?吏 怨좎젙 */
         top: 150px;
     }
 
@@ -1754,9 +1754,9 @@ img {
         flex: 1;
         width: 100%;
         min-width: 600px;
-        /* 최소 ?�비 ?�보 */
+        /* 理쒖냼 ?덈퉬 ?뺣낫 */
         max-width: 800px;
-        /* 최�? ?�비 ?�한 */
+        /* 理쒕? ?덈퉬 ?쒗븳 */
         overflow: hidden;
         aspect-ratio: 1/1;
         border: 1px solid #f0f0f0;
@@ -1776,7 +1776,7 @@ img {
         transform-origin: center center;
     }
 
-    /* �??�과 강제 ?�용 */
+    /* 以??④낵 媛뺤젣 ?곸슜 */
     .main-image-container:hover .product-main-image {
         transform: scale(2.0) !important;
     }
@@ -1786,10 +1786,10 @@ img {
         margin-top: 0;
         padding: 0;
         min-width: 0;
-        /* ?�스???�버?�로??방�? */
+        /* ?띿뒪???ㅻ쾭?뚮줈??諛⑹? */
     }
 
-    /* 불필?�한 모바???��???초기??*/
+    /* 遺덊븘?뷀븳 紐⑤컮???ㅽ???珥덇린??*/
     .product-info-sidebar {
         padding: 0;
     }
