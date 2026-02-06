@@ -445,7 +445,7 @@ img {
 }
 
 .brand-label {
-    color: #0076ff;
+    color: #ff6b35;
     font-weight: 500;
     font-size: 0.95rem;
     margin-bottom: 0px;
@@ -781,12 +781,12 @@ img {
     border-radius: 4px;
     transition: background 0.2s, transform 0.1s;
     text-decoration: none;
-    box-shadow: 0 4px 12px rgba(52, 106, 255, 0.2);
+    box-shadow: 0 4px 12px rgba(255, 107, 53, 0.25);
     gap: 4px;
 }
 
 .phone-btn-primary:hover {
-    background: #2855e0;
+    background: #e95a24;
     transform: translateY(-1px);
 }
 
