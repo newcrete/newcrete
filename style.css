@@ -919,7 +919,7 @@ img {
 /* ========================================
    반응형 - 데스크탑 (1024px 이상)
    ======================================== */
-@media (min-width: 769px) {
+@media (min-width: 768px) {
     .product-hero {
         display: grid !important;
         grid-template-columns: 1.6fr 1fr !important;
