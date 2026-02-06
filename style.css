@@ -1287,6 +1287,10 @@ img {
 /* ========================================
    영상 섹션
    ======================================== */
+}
+
+/* End of Mobile Media Query (Force Close) */
+
 .video-container {
     position: relative;
     width: 100%;
@@ -1620,10 +1624,12 @@ img {
     color: var(--text-secondary);
     margin: 0;
     line-height: 1.5;
-}/* ========================================
+}
+
+/* ========================================
    반응형 - 데스크탑 (769px 이상) - 최하단 우선순위
    ======================================== */
-@media (min-width: 769px) {
+@media (min-width: 768px) {
     .product-hero {
         display: grid !important;
         grid-template-columns: 1.6fr 1fr !important;
@@ -1639,13 +1645,13 @@ img {
         flex-direction: row !important;
         gap: 20px !important;
     }
-    
+
     .product-info-box {
         display: block !important;
         margin-top: 0 !important;
         padding: 0 !important;
     }
-    
+
     .product-info-sidebar {
         padding: 0 !important;
     }
@@ -1654,4 +1660,3 @@ img {
         aspect-ratio: 1/1;
     }
 }
-
