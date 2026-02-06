@@ -1,8 +1,8 @@
 /* ========================================
-   NEWCRETE Store - 스타일시트 (라이트 모드)
+   NEWCRETE Store - ?��??�시??(?�이??모드)
    ======================================== */
 
-/* 기본 설정 */
+/* 기본 ?�정 */
 /* Global Reset */
 * {
     box-sizing: border-box;
@@ -11,7 +11,7 @@
 }
 
 :root {
-    /* 색상 - 라이트 모드 */
+    /* ?�상 - ?�이??모드 */
     --bg-primary: #ffffff;
     --bg-secondary: #f8f9fa;
     --bg-card: #ffffff;
@@ -41,13 +41,13 @@
     --spacing-xl: 3rem;
     --spacing-2xl: 4rem;
 
-    /* 반응형 */
+    /* 반응??*/
     --container-max: 1200px;
     --border-radius: 12px;
     --border-radius-sm: 8px;
     --border-radius-lg: 16px;
 
-    /* 그림자 */
+    /* 그림??*/
     --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
     --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.1);
     --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.12);
@@ -67,13 +67,13 @@ html {
 body {
     font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
     background-color: #ffffff !important;
-    /* 다크모드 강제 오버라이드 */
+    /* ?�크모드 강제 ?�버?�이??*/
     color: #1a1a1a !important;
-    /* 텍스트 색상 고정 */
+    /* ?�스???�상 고정 */
     line-height: 1.6;
     min-height: 100vh;
     overflow-x: hidden;
-    /* 가로 스크롤 방지 */
+    /* 가�??�크�?방�? */
     width: 100%;
     position: relative;
 }
@@ -88,7 +88,7 @@ img {
     height: auto;
 }
 
-/* 기본적으로 모바일 슬라이더는 숨김 */
+/* 기본?�으�?모바???�라?�더???��? */
 .mobile-image-swiper {
     display: none;
 }
@@ -100,7 +100,7 @@ img {
 }
 
 /* ========================================
-   헤더
+   ?�더
    ======================================== */
 .header {
     position: fixed;
@@ -141,23 +141,6 @@ img {
     transform: scale(1.05);
 }
 
-Applying gap: var(--spacing-xs);
-font-size: 1.5rem;
-font-weight: 800;
-}
-
-.logo-icon {
-    color: var(--accent-orange);
-    font-size: 1.2rem;
-}
-
-.logo-text {
-    background: var(--gradient-orange);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
-
 .header-nav {
     display: flex;
     align-items: center;
@@ -183,7 +166,7 @@ font-weight: 800;
 }
 
 /* ========================================
-   히어로 섹션
+   ?�어�??�션
    ======================================== */
 .hero {
     position: relative;
@@ -241,7 +224,7 @@ font-weight: 800;
 }
 
 /* ========================================
-   상품 섹션
+   ?�품 ?�션
    ======================================== */
 .products-section {
     padding: var(--spacing-2xl) 0;
@@ -268,12 +251,12 @@ font-weight: 800;
 .products-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    /* 320px -> 280px 로 완화하여 모바일 대응 */
+    /* 320px -> 280px �??�화?�여 모바???�??*/
     gap: var(--spacing-lg);
 }
 
 /* ========================================
-   상품 카드
+   ?�품 카드
    ======================================== */
 .product-card {
     background: var(--bg-card);
@@ -354,7 +337,7 @@ font-weight: 800;
 }
 
 .product-cta::after {
-    content: '→';
+    content: '??;
     transition: transform 0.3s ease;
 }
 
@@ -363,7 +346,7 @@ font-weight: 800;
 }
 
 /* ========================================
-   상품 상세 페이지
+   ?�품 ?�세 ?�이지
    ======================================== */
 .product-page {
     padding-top: 80px;
@@ -376,7 +359,7 @@ font-weight: 800;
     padding: var(--spacing-xl) 0;
 }
 
-/* 3단 레이아웃 핵심 */
+/* 3???�이?�웃 ?�심 */
 .product-gallery-wrapper {
     display: flex;
     gap: var(--spacing-sm);
@@ -431,9 +414,9 @@ font-weight: 800;
     border-radius: 4px;
     overflow: hidden;
     aspect-ratio: 1/1;
-    /* 정사각형 비율로 이미지 부각 */
+    /* ?�사각형 비율�??��?지 부�?*/
     max-height: 800px;
-    /* 더 큰 이미지를 위해 높이 제한 상향 */
+    /* ?????��?지�??�해 ?�이 ?�한 ?�향 */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -458,7 +441,7 @@ font-weight: 800;
     flex-direction: column;
     gap: 12px;
     padding-left: 0;
-    /* 여백 제거하여 이미지 공간 확보 */
+    /* ?�백 ?�거?�여 ?��?지 공간 ?�보 */
 }
 
 .brand-label {
@@ -466,7 +449,7 @@ font-weight: 800;
     font-weight: 500;
     font-size: 0.95rem;
     margin-bottom: 0px;
-    /* 0으로 축소 */
+    /* 0?�로 축소 */
 }
 
 .rating-area {
@@ -498,7 +481,7 @@ font-weight: 800;
     font-size: 1.8rem;
     font-weight: 700;
     color: #ae0000;
-    /* 쿠팡 가격 레드 */
+    /* 쿠팡 가�??�드 */
 }
 
 .price-unit {
@@ -507,7 +490,7 @@ font-weight: 800;
     color: #ae0000;
 }
 
-/* 추가 정보 라벨 (무료배송 등) */
+/* 추�? ?�보 ?�벨 (무료배송 ?? */
 .delivery-notice {
     font-size: 0.9rem;
     color: #333;
@@ -535,7 +518,7 @@ font-weight: 800;
 
 
 
-/* 스티키 탭 바 */
+/* ?�티????�?*/
 .sticky-tabs {
     position: sticky;
     top: 60px;
@@ -596,31 +579,31 @@ font-weight: 800;
 
 .product-page-title {
     font-size: 1.7rem;
-    /* 전체적으로 살짝 더 키움 */
+    /* ?�체?�으�??�짝 ???��? */
     font-weight: 700;
     color: var(--text-primary);
     line-height: 1.4;
     margin: 0px 0 4px;
-    /* 위쪽 여백 제거 */
+    /* ?�쪽 ?�백 ?�거 */
 }
 
 .product-page-subtitle {
     display: block;
     font-size: 1.0rem;
     font-weight: 700;
-    /* 볼드체 적용 */
+    /* 볼드�??�용 */
     color: var(--text-primary);
-    /* 제목과 동일한 색상으로 복구 */
+    /* ?�목�??�일???�상?�로 복구 */
     margin-top: 4px;
     letter-spacing: -0.02em;
 }
 
-/* 색상 선택 고도화 스타일 - 박스리스 디자인 */
+/* ?�상 ?�택 고도???��???- 박스리스 ?�자??*/
 .option-selector {
     margin: 10px 0 4px;
-    /* 아래쪽 여백 축소 */
+    /* ?�래�??�백 축소 */
     border: none !important;
-    /* 모든 외곽 테두리 강제 제거 */
+    /* 모든 ?�곽 ?�두�?강제 ?�거 */
     padding: 0;
 }
 
@@ -646,13 +629,13 @@ font-weight: 800;
     width: 60px;
     height: 60px;
     border: none;
-    /* 기본 테두리 완전 제거 */
+    /* 기본 ?�두�??�전 ?�거 */
     border-radius: 8px;
     cursor: pointer;
     transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
     object-fit: cover;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-    /* 입체감을 위한 미세한 그림자 */
+    /* ?�체감을 ?�한 미세??그림??*/
 }
 
 .option-chips .chip:hover {
@@ -662,13 +645,13 @@ font-weight: 800;
 
 .option-chips .chip.active {
     transform: scale(1.1);
-    /* 박스 대신 크기 확대로 강조 */
+    /* 박스 ?�???�기 ?��?�?강조 */
     box-shadow: 0 4px 15px rgba(52, 106, 255, 0.3);
-    /* 블루 컬러 그림자로 은은하게 표시 */
+    /* 블루 컬러 그림?�로 ?�?�?�게 ?�시 */
     z-index: 1;
 }
 
-/* 브랜드 슬로건 스타일 */
+/* 브랜???�로�??��???*/
 .product-slogan {
     background: var(--accent-orange-light);
     border-left: 4px solid var(--accent-orange);
@@ -700,21 +683,21 @@ font-weight: 800;
     font-size: 0.95rem;
     color: #555;
     font-weight: 700;
-    /* 전체 문구 볼드 적용 */
+    /* ?�체 문구 볼드 ?�용 */
     margin-bottom: 4px;
     padding-left: 12px;
     position: relative;
 }
 
 .product-summary li::before {
-    content: "•";
+    content: "??;
     position: absolute;
     left: 0;
     color: var(--accent-orange);
-    /* 포인트 컬러로 변경 */
+    /* ?�인??컬러�?변�?*/
 }
 
-/* 상품설명 하단 텍스트 블록 정돈 */
+/* ?�품?�명 ?�단 ?�스??블록 ?�돈 */
 .user-text-block ul {
     list-style: none !important;
     padding-left: 0 !important;
@@ -727,26 +710,26 @@ font-weight: 800;
 }
 
 .user-text-block li::before {
-    content: "✔️";
+    content: "?�️";
     position: absolute;
     left: 0;
     font-size: 0.75rem;
 }
 
-/* 하단 색상 옵션 스타일 보강 */
+/* ?�단 ?�상 ?�션 ?��???보강 */
 .color-options {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
-    /* 간격을 25px에서 15px로 축소 */
+    /* 간격??25px?�서 15px�?축소 */
     margin: 0 0 20px;
-    /* 상단 여백 제거 */
+    /* ?�단 ?�백 ?�거 */
     padding: 0;
-    /* 박스 느낌 제거를 위해 패딩 제거 */
+    /* 박스 ?�낌 ?�거�??�해 ?�딩 ?�거 */
     background: transparent;
-    /* 배경 제거 */
+    /* 배경 ?�거 */
     border: none;
-    /* 테두리 제거 */
+    /* ?�두�??�거 */
 }
 
 .color-item {
@@ -766,7 +749,7 @@ font-weight: 800;
     object-fit: cover;
     border: 3px solid #eee;
     margin-bottom: 2px !important;
-    /* 여백 강제 축소 */
+    /* ?�백 강제 축소 */
     transition: border-color 0.2s;
 }
 
@@ -774,7 +757,7 @@ font-weight: 800;
     border-color: var(--accent-orange);
 }
 
-/* 전화 문의 버튼 (쿠팡 스타일 단일 CTA - 2단 구성) */
+/* ?�화 문의 버튼 (쿠팡 ?��????�일 CTA - 2??구성) */
 .contact-buttons {
     display: block;
     margin-top: 8px;
@@ -835,7 +818,7 @@ font-weight: 800;
     opacity: 0.9;
 }
 
-/* 상세 설명 영역 */
+/* ?�세 ?�명 ?�역 */
 .product-description-section {
     padding: var(--spacing-2xl) 0;
     border-top: 1px solid var(--border-color);
@@ -930,7 +913,7 @@ font-weight: 800;
 }
 
 /* ========================================
-   플로팅 버튼
+   ?�로??버튼
    ======================================== */
 .floating-contact {
     position: fixed;
@@ -968,7 +951,7 @@ font-weight: 800;
 }
 
 /* ========================================
-   푸터
+   ?�터
    ======================================== */
 .footer {
     background: var(--bg-secondary);
@@ -1015,19 +998,19 @@ font-weight: 800;
 
 /* [MOVED] Desktop styles moved to bottom for precedence */
 
-/* 하단 중복/잔류 스타일 제거 */
+/* ?�단 중복/?�류 ?��????�거 */
 
 @media (max-width: 767px) {
     .product-hero {
         padding: 0;
-        /* Full-Bleed: 전체 여백 제거 */
+        /* Full-Bleed: ?�체 ?�백 ?�거 */
         gap: 0;
     }
 
     .product-gallery-box {
         flex-direction: column-reverse;
         padding: 0;
-        /* 이미지 주변 여백 제거 */
+        /* ?��?지 주�? ?�백 ?�거 */
         gap: 0;
     }
 
@@ -1036,7 +1019,7 @@ font-weight: 800;
         width: 100%;
         overflow-x: auto;
         padding: 16px 20px;
-        /* 썸네일 영역 별도 여백 */
+        /* ?�네???�역 별도 ?�백 */
         gap: 8px;
         background: #fff;
     }
@@ -1047,7 +1030,7 @@ font-weight: 800;
         flex-shrink: 0;
     }
 
-    /* 본문 텍스트 여백 확보 */
+    /* 본문 ?�스???�백 ?�보 */
     .product-info-box {
         padding: 20px;
     }
@@ -1059,14 +1042,14 @@ font-weight: 800;
     /* Full-Bleed Main Image */
     .main-image-container {
         aspect-ratio: 1/1;
-        /* 정사각형 비율 (앱 표준) */
+        /* ?�사각형 비율 (???��?) */
         padding: 0;
         background: #fff;
         border: none;
         border-radius: 0;
-        /* 둥근 모서리 제거 */
+        /* ?�근 모서�??�거 */
         border-bottom: 1px solid #eee;
-        /* 하단 경계선 추가 */
+        /* ?�단 경계??추�? */
     }
 
     .product-page-title {
@@ -1108,12 +1091,12 @@ font-weight: 800;
         justify-content: center;
     }
 
-    /* 모바일 레이아웃 단순화 */
+    /* 모바???�이?�웃 ?�순??*/
     .product-hero,
     .product-gallery-box,
     .product-info-box {
         display: block;
-        /* !important 제거 */
+        /* !important ?�거 */
         width: 100%;
         max-width: 100%;
     }
@@ -1123,12 +1106,12 @@ font-weight: 800;
         margin-top: 20px;
     }
 
-    /* 모바일 안전장치: 화면 밖으로 나가는 요소 강제 차단 */
+    /* 모바???�전?�치: ?�면 밖으�??��????�소 강제 차단 */
     .container,
     .product-page,
     .product-hero {
         max-width: 100%;
-        /* 100vw -> 100% 수정 (스크롤바 포함 너비 문제 해결) */
+        /* 100vw -> 100% ?�정 (?�크롤바 ?�함 ?�비 문제 ?�결) */
         overflow-x: hidden;
     }
 
@@ -1136,7 +1119,7 @@ font-weight: 800;
         max-width: 100% !important;
     }
 
-    /* 텍스트 줄바꿈 최적화 (세로 나열 방지) */
+    /* ?�스??줄바�?최적??(?�로 ?�열 방�?) */
     .product-page-title,
     .brand-label,
     .product-summary li,
@@ -1144,24 +1127,24 @@ font-weight: 800;
     .price-value,
     .product-info-sidebar p {
         word-break: keep-all;
-        /* 단어 단위 유지 */
+        /* ?�어 ?�위 ?��? */
         word-wrap: break-word;
-        /* 긴 단어는 줄바꿈 */
+        /* �??�어??줄바�?*/
         overflow-wrap: anywhere;
-        /* 강제 줄바꿈 허용 */
+        /* 강제 줄바�??�용 */
     }
 
-    /* 제목은 좀 더 유연하게 */
+    /* ?�목?� 좀 ???�연?�게 */
     .product-page-title {
         line-height: 1.4;
     }
 
-    /* 모바일 전용 슬라이더 보이기 */
+    /* 모바???�용 ?�라?�더 보이�?*/
     .mobile-image-swiper {
         display: block !important;
         width: 100%;
         aspect-ratio: 1/1;
-        /* 앱 스타일 정사각형 */
+        /* ???��????�사각형 */
         border-bottom: 1px solid #eee;
     }
 
@@ -1169,23 +1152,23 @@ font-weight: 800;
         width: 100%;
         height: 100%;
         object-fit: contain;
-        /* Full-Bleed 하면서 내부는 contain */
+        /* Full-Bleed ?�면???��???contain */
         background: #fff;
     }
 
-    /* 데스크탑 요소 숨김 */
+    /* ?�스?�탑 ?�소 ?��? */
     .desktop-only {
         display: none !important;
     }
 
     /* ========================================
-       모바일 비주얼 폴리싱 (헤더, 색상, 줄간격)
+       모바??비주???�리??(?�더, ?�상, 줄간�?
        ======================================== */
 
-    /* 1. 헤더 최적화 (사이즈/간격 축소) */
+    /* 1. ?�더 최적??(?�이�?간격 축소) */
     .header {
         padding: 8px 16px;
-        /* 상하 패딩 축소 */
+        /* ?�하 ?�딩 축소 */
     }
 
     .logo {
@@ -1213,15 +1196,15 @@ font-weight: 800;
 
     .header-phone span:first-child {
         font-size: 0.9rem;
-        /* 아이콘 */
+        /* ?�이�?*/
     }
 
     .header-phone span:last-child {
         font-size: 0.9rem;
-        /* 전화번호 */
+        /* ?�화번호 */
     }
 
-    /* 2. 색상 옵션: 2열 배치 (00 00) */
+    /* 2. ?�상 ?�션: 2??배치 (00 00) */
     .option-chips {
         display: grid;
         grid-template-columns: repeat(2, 1fr) !important;
@@ -1232,11 +1215,11 @@ font-weight: 800;
         width: 100% !important;
         height: auto !important;
         aspect-ratio: 1/1;
-        /* 정사각형 유지 */
+        /* ?�사각형 ?��? */
         border-radius: 6px;
     }
 
-    /* 3. 줄간격 및 여백 축소 (밀도 높이기) */
+    /* 3. 줄간�?�??�백 축소 (밀???�이�? */
     .product-summary li {
         margin-bottom: 6px;
         line-height: 1.45;
@@ -1250,7 +1233,7 @@ font-weight: 800;
 
     .description-content h3 {
         margin: 24px 0 10px;
-        /* 제목 위아래 간격 축소 */
+        /* ?�목 ?�아??간격 축소 */
         font-size: 1.15rem;
     }
 
@@ -1262,7 +1245,7 @@ font-weight: 800;
         margin: 12px 0;
     }
 
-    /* 본문 제목 간격도 조금 타이트하게 */
+    /* 본문 ?�목 간격??조금 ?�?�트?�게 */
     .product-page-title {
         margin: 4px 0 6px;
     }
@@ -1271,27 +1254,27 @@ font-weight: 800;
         margin-top: 2px;
     }
 
-    /* === [USER REQUEST] 상품정보 하단 간격 대폭 축소 === */
-    /* 인라인 스타일을 이기기 위해 !important 사용 */
+    /* === [USER REQUEST] ?�품?�보 ?�단 간격 ?�??축소 === */
+    /* ?�라???��??�을 ?�기�??�해 !important ?�용 */
 
-    /* 1. 사이드바 내부 텍스트 (상품정보, 물리적 특성 등) */
+    /* 1. ?�이?�바 ?��? ?�스??(?�품?�보, 물리???�성 ?? */
     .product-info-sidebar p,
     .product-info-sidebar ul,
     .product-info-sidebar li {
         margin-bottom: 6px !important;
         margin-top: 6px !important;
         line-height: 1.35 !important;
-        /* 요청대로 훨씬 촘촘하게 */
+        /* ?�청?��??�씬 촘촘?�게 */
     }
 
-    /* 2. 상품정보/물리적특성 큰 제목들 */
+    /* 2. ?�품?�보/물리?�특?????�목??*/
     .product-info-sidebar h2 {
         margin-bottom: 8px !important;
         padding-bottom: 4px !important;
         font-size: 1.3rem !important;
     }
 
-    /* 3. 특정 제목 (물리적 특성) 위쪽 여백 축소 */
+    /* 3. ?�정 ?�목 (물리???�성) ?�쪽 ?�백 축소 */
     .product-info-sidebar p[style*="font-size: 1.25rem"] {
         margin-top: 20px !important;
         /* 40px -> 20px */
@@ -1306,17 +1289,17 @@ font-weight: 800;
     }
 
 
-    /* 4. 상품 정보 상세 영역 (하단) 밀도 높이기 */
+    /* 4. ?�품 ?�보 ?�세 ?�역 (?�단) 밀???�이�?*/
     .products-section,
     .product-description-section {
         padding: 24px 0 !important;
-        /* 섹션 상하 여백 대폭 축소 */
+        /* ?�션 ?�하 ?�백 ?�??축소 */
     }
 
     .section-title {
         font-size: 1.5rem;
         margin-bottom: 20px;
-        /* 제목 아래 여백 축소 */
+        /* ?�목 ?�래 ?�백 축소 */
     }
 
     .feature-box {
@@ -1331,7 +1314,7 @@ font-weight: 800;
 
     .feature-grid {
         gap: 12px;
-        /* 그리드 간격 축소 */
+        /* 그리??간격 축소 */
     }
 
     .feature-item {
@@ -1340,7 +1323,7 @@ font-weight: 800;
 }
 
 /* ========================================
-   스크롤바
+   ?�크롤바
    ======================================== */
 ::-webkit-scrollbar {
     width: 8px;
@@ -1360,7 +1343,7 @@ font-weight: 800;
 }
 
 /* ========================================
-   브레드크럼
+   브레?�크??
    ======================================== */
 .breadcrumb {
     padding: var(--spacing-sm) 0;
@@ -1382,13 +1365,13 @@ font-weight: 800;
 }
 
 /* ========================================
-   영상 섹션
+   ?�상 ?�션
    ======================================== */
 }
 
 /* End of Mobile Media Query (One brace is enough) */
 
-/* Double Close: 확실하게 모바일 쿼리 종료 */
+/* Double Close: ?�실?�게 모바??쿼리 종료 */
 
 /* End of Mobile Media Query (Force Close Checks) */
 
@@ -1401,9 +1384,9 @@ font-weight: 800;
     border-radius: var(--border-radius);
     overflow: hidden;
     background: #000;
-    /* 비디오 로딩 전 검은 배경 */
+    /* 비디??로딩 ??검?� 배경 */
     min-height: 200px;
-    /* 로딩 실패 시 최소 높이 확보 */
+    /* 로딩 ?�패 ??최소 ?�이 ?�보 */
 }
 
 .video-container iframe {
@@ -1414,7 +1397,7 @@ font-weight: 800;
     height: 100%;
     border: none;
     max-width: 100%;
-    /* 안전장치 */
+    /* ?�전?�치 */
 }
 
 .video-caption {
@@ -1431,7 +1414,7 @@ font-weight: 800;
 }
 
 /* ========================================
-   이미지 갤러리
+   ?��?지 갤러�?
    ======================================== */
 .image-gallery {
     display: grid;
@@ -1469,7 +1452,7 @@ font-weight: 800;
 }
 
 /* ========================================
-   색상 옵션
+   ?�상 ?�션
    ======================================== */
 .color-options {
     display: flex;
@@ -1507,7 +1490,7 @@ font-weight: 800;
 }
 
 /* ========================================
-   정보 박스
+   ?�보 박스
    ======================================== */
 .info-box {
     background: var(--accent-orange-light);
@@ -1527,7 +1510,7 @@ font-weight: 800;
 }
 
 /* ========================================
-   핵심 특징 미니 그리드 (상품 페이지 오른쪽)
+   ?�심 ?�징 미니 그리??(?�품 ?�이지 ?�른�?
    ======================================== */
 .quick-features {
     display: grid;
@@ -1557,7 +1540,7 @@ font-weight: 800;
 }
 
 /* ========================================
-   빠른 안내 박스
+   빠른 ?�내 박스
    ======================================== */
 .quick-notice {
     margin-top: var(--spacing-md);
@@ -1579,7 +1562,7 @@ font-weight: 800;
 }
 
 /* ========================================
-   시공방법 섹션
+   ?�공방법 ?�션
    ======================================== */
 .construction-steps {
     display: flex;
@@ -1632,7 +1615,7 @@ font-weight: 800;
 }
 
 /* ========================================
-   블로그 카드 그리드
+   블로�?카드 그리??
    ======================================== */
 .blog-card-grid {
     display: grid;
@@ -1739,12 +1722,12 @@ font-weight: 800;
     .product-hero {
         display: grid;
         grid-template-columns: 710px 1fr;
-        /* 썸네일(80)+간격(30)+이미지(600) 정확히 수용 */
+        /* ?�네??80)+간격(30)+?��?지(600) ?�확???�용 */
         gap: 60px;
-        /* 침범 해결을 위해 간격 살짝 조정 */
+        /* 침범 ?�결???�해 간격 ?�짝 조정 */
         align-items: start;
         max-width: 1400px;
-        /* 더 넓게 허용 */
+        /* ???�게 ?�용 */
         margin: 0 auto;
         padding: 60px 40px;
     }
@@ -1755,7 +1738,7 @@ font-weight: 800;
         gap: 30px;
         align-items: flex-start;
         position: sticky;
-        /* 스크롤 시 이미지 고정 */
+        /* ?�크�????��?지 고정 */
         top: 150px;
     }
 
@@ -1771,9 +1754,9 @@ font-weight: 800;
         flex: 1;
         width: 100%;
         min-width: 600px;
-        /* 최소 너비 확보 */
+        /* 최소 ?�비 ?�보 */
         max-width: 800px;
-        /* 최대 너비 제한 */
+        /* 최�? ?�비 ?�한 */
         overflow: hidden;
         aspect-ratio: 1/1;
         border: 1px solid #f0f0f0;
@@ -1793,7 +1776,7 @@ font-weight: 800;
         transform-origin: center center;
     }
 
-    /* 줌 효과 강제 적용 */
+    /* �??�과 강제 ?�용 */
     .main-image-container:hover .product-main-image {
         transform: scale(2.0) !important;
     }
@@ -1803,10 +1786,10 @@ font-weight: 800;
         margin-top: 0;
         padding: 0;
         min-width: 0;
-        /* 텍스트 오버플로우 방지 */
+        /* ?�스???�버?�로??방�? */
     }
 
-    /* 불필요한 모바일 스타일 초기화 */
+    /* 불필?�한 모바???��???초기??*/
     .product-info-sidebar {
         padding: 0;
     }
