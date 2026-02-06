@@ -592,8 +592,10 @@ img {
 .product-page-subtitle {
     display: block;
     font-size: 1.0rem;
-    font-weight: 500;
-    color: var(--text-secondary);
+    font-weight: 700;
+    /* 볼드체 적용 */
+    color: var(--text-primary);
+    /* 제목과 동일한 색상으로 복구 */
     margin-top: 4px;
     letter-spacing: -0.02em;
 }
