@@ -1008,7 +1008,41 @@ img {
     }
 
     .product-page-title {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
+        /* 제목 축소 */
+        line-height: 1.3;
+    }
+
+    .product-page-subtitle {
+        font-size: 1.0rem;
+        /* 소제목 축소 */
+        margin-top: 2px;
+    }
+
+    .product-summary li {
+        font-size: 0.85rem;
+        /* 요약 텍스트 축소 */
+        margin-bottom: 6px;
+    }
+
+    .product-info-box {
+        padding: 24px 16px;
+    }
+
+    .btn-text-main {
+        font-size: 1.15rem;
+        /* 버튼 메인 텍스트 축소 */
+    }
+
+    .btn-text-sub {
+        font-size: 1.15rem;
+        /* 버튼 전화번호 축소 */
+    }
+
+    .phone-btn-primary {
+        min-height: 76px;
+        /* 버튼 높이 소폭 조정 */
+        padding: 10px 0;
     }
 
     .product-gallery {
@@ -1027,7 +1061,8 @@ img {
     }
 
     .main-image-container {
-        aspect-ratio: 4/3;
+        aspect-ratio: 1/1;
+        /* 모바일에서 1:1 유지 */
     }
 }
 
