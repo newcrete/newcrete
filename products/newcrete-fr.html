@@ -13,7 +13,8 @@
         href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
 
     <!-- 스타일시트 -->
-    <link rel="stylesheet" href="../style.css?v=4">
+    <link rel="stylesheet" href="../style.css?v=5">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -49,7 +50,22 @@
                 <!-- 1단: 썸네일 -->
                 <!-- 왼쪽 박스: 갤러리 영역 -->
                 <div class="product-gallery-box">
-                    <div class="thumbnail-column">
+                    <!-- 모바일 전용 스와이퍼 -->
+                    <div class="swiper mobile-image-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="../images/newcrete-1.png" alt="뉴크리트 1"></div>
+                            <div class="swiper-slide"><img src="../images/newcrete-2.png" alt="뉴크리트 2"></div>
+                            <div class="swiper-slide"><img src="../images/newcrete-3.png" alt="뉴크리트 3"></div>
+                            <div class="swiper-slide"><img src="../images/newcrete-3-1.png" alt="뉴크리트 3-1"></div>
+                            <div class="swiper-slide"><img src="../images/newcrete-4.png" alt="뉴크리트 4"></div>
+                            <div class="swiper-slide"><img src="../images/newcrete-5.png" alt="뉴크리트 5"></div>
+                            <div class="swiper-slide"><img src="../images/newcrete-6.png" alt="뉴크리트 6"></div>
+                            <div class="swiper-slide"><img src="../images/newcrete-7.png" alt="뉴크리트 7"></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                    <div class="thumbnail-column desktop-only">
                         <img src="../images/newcrete-1.png" alt="뉴크리트 1" class="thumb-item active"
                             onmouseover="changeMainImage(this.src, this)">
                         <img src="../images/newcrete-2.png" alt="뉴크리트 2" class="thumb-item"
@@ -68,7 +84,7 @@
                             onmouseover="changeMainImage(this.src, this)">
                     </div>
 
-                    <div class="main-image-container">
+                    <div class="main-image-container desktop-only">
                         <img src="../images/newcrete-1.png" alt="폴리우레탄 레진몰탈 : 뉴크리트" class="product-main-image"
                             id="mainImage">
                     </div>
@@ -389,6 +405,25 @@
             tabs.forEach(tab => tab.classList.remove('active'));
             event.target.classList.add('active');
         }
+    </script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- 스크립트 -->
+    <script src="../data.js"></script>
+    <script>
+        // 모바일 전용 이미지 슬라이더 초기화
+        var swiper = new Swiper(".mobile-image-swiper", {
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+        });
     </script>
 </body>
 
